@@ -1,0 +1,41 @@
+.hero__container {
+  padding-bottom: 50px;
+}
+
+.hero__title {
+  margin-bottom: 30px;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1.36;
+  letter-spacing: 0.03em;
+  color: #111518;
+}
+
+.hero__text {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.57;
+  letter-spacing: 0.08em;
+
+  &-part-first {
+    font-weight: 500;
+    color: #b9b9b9;
+  }
+
+  &-part-last {
+    color: #ff6b09;
+  }
+}
+
+.hero__btn {
+  margin-bottom: 30px;
+  color: #ffffff;
+  background-color: #ff6b09;
+
+  &:hover,
+  &:focus {
+    color: #ff6b09;
+    background-color: transparent;
+  }
+}
