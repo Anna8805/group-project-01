@@ -147,7 +147,7 @@ img {
 }
 
 .logo-dark-them {
-  fill: #fff;
+  fill: #ffffff;
 }
 
 .menu-box {
@@ -279,10 +279,12 @@ img {
   }
 }
 
+.hero {
+  position: relative;
+}
 .hero__container {
   padding-bottom: 50px;
 }
-
 .hero__container-flex {
   margin-bottom: 78px;
 }
@@ -294,13 +296,11 @@ img {
     margin-bottom: 114px;
   }
 }
-
 @media screen and (max-width: 767px) {
   .hero__content {
     margin-bottom: 30px;
   }
 }
-
 .hero__title {
   margin-bottom: 30px;
   font-weight: 800;
@@ -360,21 +360,16 @@ img {
 
 @media screen and (max-width: 767px) {
   .hero__img {
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
     padding-left: 41px;
     padding-right: 41px;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .hero__img {
-    width: 100%;
-    height: auto;
-  }
-}
 @media screen and (min-width: 768px) and (max-width: 1313px) {
   .hero__img {
-    min-width: 375px;
+    width: 375px;
   }
 }
 @media screen and (min-width: 1314px) {
@@ -489,24 +484,24 @@ img {
 }
 
 .overley {
-  position: fixed;
-  top: 90px;
+  position: absolute;
+  top: 0;
   left: 0;
   background-image: url("/vector-mobile.c915d89e.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100% 550px;
   z-index: -1;
 }
 @media screen and (min-width: 768px) {
   .overley {
     background-image: url("/vector-tablet.ed09068c.png");
-    top: 260px;
+    background-size: 100% 380px;
   }
 }
 @media screen and (min-width: 1314px) {
   .overley {
     background-image: url("/vector-desktop.aabccd3c.png");
-    top: 200px;
+    background-size: 100% 746px;
   }
 }
 
@@ -518,7 +513,6 @@ img {
 @media screen and (min-width: 768px) {
   .problems {
     padding-top: 60px;
-    padding-left: 10px;
     max-height: 340px;
   }
 }
@@ -1504,8 +1498,16 @@ img {
   }
 }
 @media screen and (min-width: 768px) {
+  .teacher-experience-item {
+    width: 455px;
+  }
   .teacher-experience-item:not(:last-child) {
     margin-bottom: 15px;
+  }
+}
+@media screen and (min-width: 1314px) {
+  .teacher-experience-item {
+    width: 100%;
   }
 }
 
