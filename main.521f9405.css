@@ -780,8 +780,6 @@ img {
 }
 
 .problems_decision {
-  padding-left: 20px;
-  padding-right: 20px;
   background: #ffffff;
 }
 
@@ -832,8 +830,6 @@ img {
   .problems_decision_item {
     padding-top: 40px;
     padding-bottom: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
     min-width: 334px;
     margin: 40px auto 0px;
   }
