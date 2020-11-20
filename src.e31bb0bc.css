@@ -815,7 +815,7 @@ img {
 @media screen and (max-width: 767px) {
   .our-program {
     padding-top: 50px;
-    padding-bottom: 428px;
+    padding-bottom: 420px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1313px) {
@@ -830,7 +830,7 @@ img {
 @media screen and (min-width: 1314px) {
   .our-program {
     padding-top: 120px;
-    padding-bottom: 348px;
+    padding-bottom: 325px;
   }
 }
 .our-program .container {
@@ -995,7 +995,7 @@ img {
   .our-program-term-section-title {
     font-size: 20px;
     line-height: 164.9%;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
   }
 }
 .our-program-term-description-items {
@@ -1057,7 +1057,7 @@ img {
     padding-bottom: 70px;
     padding-left: 83px;
     padding-right: 83px;
-    transform: translate(0%, 40%);
+    transform: translate(0%, 35%);
   }
 }
 .our-program-info-title {
@@ -1229,7 +1229,7 @@ img {
     background-image: url("/our-prgm-desktop.faa32957.png");
     border-bottom: 0;
     left: 0;
-    transform: translate(-24%, 58.5%);
+    transform: translate(-24%, 55%);
     width: 760px;
     height: 502px;
   }
