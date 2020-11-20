@@ -55,6 +55,10 @@ img {
   .container {
     width: 768px;
   }
+  .footer .container {
+    display: flex;
+    align-items: center;
+  }
 }
 @media screen and (min-width: 1314px) {
   .container {
@@ -824,7 +828,7 @@ img {
 @media screen and (min-width: 1314px) {
   .our-program {
     padding-top: 120px;
-    padding-bottom: 363px;
+    padding-bottom: 348px;
   }
 }
 .our-program .container {
@@ -1051,7 +1055,7 @@ img {
     padding-bottom: 70px;
     padding-left: 83px;
     padding-right: 83px;
-    transform: translate(0%, 96%);
+    transform: translate(0%, 40%);
   }
 }
 .our-program-info-title {
@@ -1173,7 +1177,7 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1313px) {
   .our-program-info-wrapper {
     padding-top: 189px;
     display: flex;
@@ -1710,7 +1714,9 @@ img {
 @media screen and (min-width: 768px) {
   .review {
     position: relative;
+    width: 688px;
     padding: 40px;
+    margin: 0 auto;
     margin-bottom: 30px;
   }
 }
@@ -1718,6 +1724,7 @@ img {
   .review {
     display: inline-flex;
     justify-content: center;
+    width: 1090px;
     padding: 50px 112px 50px 82px;
     margin-bottom: 40px;
   }
@@ -1767,12 +1774,13 @@ img {
 }
 @media screen and (min-width: 768px) {
   .review-container {
+    width: 412px;
     text-align: left;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1313px) {
+@media screen and (min-width: 1314px) {
   .review-container {
-    width: 412px;
+    width: 706px;
     margin-right: 28px;
   }
 }
@@ -1878,10 +1886,10 @@ img {
 }
 @media screen and (min-width: 1314px) {
   .button-arrow-left {
-    left: -85px;
+    left: -60px;
   }
   .button-arrow-right {
-    right: -85px;
+    right: -60px;
   }
 }
 
@@ -2087,18 +2095,16 @@ ul {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+.footer-copyright {
+  background: #111518;
+}
+
 .copyright {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 15px;
-  width: 100%;
   height: 70px;
   font-weight: 500;
   font-size: 14px;
   line-height: 2;
   color: #b9b9b9;
-  background: #111518;
 }
 
 @media screen and (min-width: 320px) {
@@ -2163,8 +2169,6 @@ ul {
   .footer-contacts {
     position: absolute;
     left: 60%;
-    display: flex;
-    align-items: center;
   }
   .footer-address {
     margin-left: auto;
